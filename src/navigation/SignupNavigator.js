@@ -1,9 +1,6 @@
-import {
-  StackNavigator
-} from 'react-navigation'
-import SignupSchoolInfo from '../views/SignupSchoolInfo'
-import SignupUserinfo from '../views/SignupUserinfo'
-import DashboardNavigator from './DashboardNavigator'
+import { StackNavigator } from "react-navigation";
+import SignupSchoolInfo from "../views/SignupSchoolInfo";
+import SignupUserinfo from "../views/SignupUserinfo";
 
 const AppNavigator = StackNavigator({
   SignupSchoolInfo: {
@@ -18,6 +15,6 @@ const AppNavigator = StackNavigator({
       header: false
     }
   }
-})
+});
 
-export default AppNavigator
+export default AppNavigator;

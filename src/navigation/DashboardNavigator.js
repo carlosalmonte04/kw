@@ -1,13 +1,13 @@
-import React from 'react'
-import { TabNavigator } from 'react-navigation'
+import React from "react";
+import { TabNavigator } from "react-navigation";
 
-import Search from '../views/Search'
-import Messages from '../views/Messages'
-import Channels from '../views/Channels'
-import Contacts from '../views/Contacts'
-import Profile from '../views/Profile'
+import Search from "../views/Search"; // turn into index.js
+import Messages from "../views/Messages";
+import Channels from "../views/Channels";
+import Contacts from "../views/Contacts";
+import Profile from "../views/Profile";
 
-import TabBarIcon from '../components/TabBarIcon'
+import TabBarIcon from "../components/TabBarIcon";
 
 // probably more navigators instead of Screens/Views
 const DashboardNavigator = TabNavigator(
@@ -44,9 +44,9 @@ const DashboardNavigator = TabNavigator(
     }
   },
   {
-    tabBarPosition: 'bottom',
+    tabBarPosition: "bottom",
     swipeEnabled: true
   }
-)
+);
 
-export default DashboardNavigator
+export default DashboardNavigator;
